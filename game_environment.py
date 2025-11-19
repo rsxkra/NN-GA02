@@ -11,7 +11,6 @@ import numpy as np
 from collections import deque
 import matplotlib.pyplot as plt
 import pickle
-import tensorflow as tf
 
 class Position:
     """Class for defining any position on a 2D grid
@@ -139,7 +138,7 @@ class Snake:
         
     """
     def __init__(self, board_size=10, frames=2, start_length=5, seed=42,
-                 max_time_limit=298, obstacles=False, version=''):
+                max_time_limit=298, obstacles=False, version=''):
         """Initializer for the snake class. Some of the attributes are
         initialized here while the remaining are done in the reset function
         depending on which need to be refreshed every time game restarts
