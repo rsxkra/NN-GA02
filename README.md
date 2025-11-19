@@ -6,7 +6,7 @@ The agent takes 2 frames of the game as input (image) and predicts the action va
 the next action to take.
 ***
 Sample games from the best performing agent at iteration 185500<br>
-<img width="400" height="400" src="https://github.com/rsxkra/NN-GA02/blob/main/images/game_visual_v17.1_185500_14_ob_2.gif" alt="model v17.1 agent" ><img width="400" height="400" src="https://github.com/rsxkra/NN-GA02/blob/main/images/game_visual_v17.1_185500_14_ob_4.gif" alt="model v17.1 agent" >
+<img width="400" height="400" src="https://github.com/rsxkra/NN-GA02/blob/main/images/game_visual_v17.1_185500_14_ob_4_1.gif" alt="model v17.1 agent" ><img width="400" height="400" src="https://github.com/rsxkra/NN-GA02/blob/main/images/game_visual_v17.1_185500_14_ob_4_2.gif" alt="model v17.1 agent" >
 
 ***
 
@@ -23,7 +23,7 @@ Sample games from the best performing agent at iteration 185500<br>
 Run training.py, then select the best run to use in game_visualization.py, ex. 185 500 (in this case) and run the visualization.
 
 ## Additional dependencies.
-FFMPEG
+matplotlib FFMPEG
 * conda install -c conda-forge ffmpeg (for conda enviorments)
 
-* I used PyTorch verson 2.8. Some older keywords for functions are deprecated here, so I need to use the new keywords, which then may not work on older versions. However, I have added the deprecated varients to as fallback, which I think should work, but I have not tested it.
+I used PyTorch verson 2.8. Some older keywords for functions are deprecated here, so I need to use the new keywords, which then may not work on older versions. However, I have added the deprecated varients to as fallback, which I think should work, but I have not tested it.
